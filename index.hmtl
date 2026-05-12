@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keynia Kingsberry - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="fade-in">
+        <div class="hero-content">
+            <h1>Keynia Kingsberry</h1>
+            <p>Information Technology Major with a Minor in Data Science</p>
+            <div class="social-links">
+                <a href="https://github.com/keyniak" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/keynia-kingsberry-37398228a" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I'm passionate about technology and data, and I love creating innovative solutions.</p>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Data Analysis</div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2>Major Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Ms Carter's Gradebook</h3>
+                <p>A web application for managing student grades. Built with HTML, CSS, and JavaScript.</p>
+                <span class="tech">Tech: HTML, CSS, JS</span>
+            </div>
+            <div class="project-card">
+                <h3>Esport Website</h3>
+                <p>A platform for esports enthusiasts. Features include team management and match tracking.</p>
+                <span class="tech">Tech: React, Node.js</span>
+            </div>
+            <div class="project-card">
+                <h3>Hackathon 2026</h3>
+                <p>A project developed during a hackathon, focusing on innovative tech solutions.</p>
+                <span class="tech">Tech: Python, Flask</span>
+            </div>
+            <div class="project-card">
+                <h3>Digital Library</h3>
+                <p>An online library system for digital books and resources.</p>
+                <span class="tech">Tech: Django, PostgreSQL</span>
+            </div>
+            <div class="project-card">
+                <h3>PhotoGA</h3>
+                <p>A photo gallery application with advanced filtering and editing features.</p>
+                <span class="tech">Tech: Vue.js, Firebase</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="fade-in">
+        <h2>Education</h2>
+        <p>Bachelor's in Information Technology<br>Minor in Data Science</p>
+    </section>
+
+    <section id="resume" class="fade-in">
+        <h2>Resume</h2>
+        <p>Resume coming soon!</p>
+        <button id="download-btn">Download Resume</button>
+        <button id="view-btn">View Resume</button>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:kingsberrykeynia@gmail.com">kingsberrykeynia@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/keynia-kingsberry-37398228a" target="_blank">Keynia Kingsberry</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
